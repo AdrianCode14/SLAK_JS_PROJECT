@@ -1,0 +1,172 @@
+{
+    "home": {
+        "welcome": "Welcome",
+        "body1": "The first application",
+        "body2": "of collective vegetable garden",
+        "btn-discover": "Discover",
+        "link-access-platform": "Access to the platform"
+    },
+    "browse": {
+        "loading-state-status": "Loading",
+        "status-xresults": "results",
+        "left": {
+            "create-garden": {
+                "title": "Create your vegetable garden",
+                "body1": "",
+                "body2": "You can create your own collective vegetable garden",
+                "btn": "Create your garden"
+            }
+        }
+    },
+    "pages": {
+        "create-garden": {
+            "title-mode": "Create Mode",
+            "input-name": "Name",
+            "input-address": "Address",
+            "subtitle-garden": "Garden",
+            "config-x": "Columns",
+            "config-y": "Rows",
+            "subtitle-plan": "Plan",
+            "subtitle-areas": "Areas",
+            "modal-address": {
+                "title": "Address",
+                "input-street": "Street",
+                "input-city": "City",
+                "input-postcode": "ZIP Code",
+                "error-message": "Empty fields",
+                "button-save": "Save",
+                "button-close": "Close"
+            },
+            "modal-area": {
+                "title": "New Area",
+                "input-name": "Name",
+                "input-desc": "Description",
+                "error-message": "Name is empty",
+                "button-add": "Add",
+                "button-cancel": "Cancel"
+            },
+            "error-messages": {
+                "name-empty": "The garden name must be filled",
+                "address-empty": "The garden address must be filled",
+                "creation": "Error during garden creation",
+                "edition": "Error during the save of the changes",
+                "already-owner": "You are already owner of a garden",
+                "fetch-data": "An error occured when trying to fetch data"
+            },
+
+            "garden-created": "Garden created !",
+            "garden-edited": "Garden saved !",
+            "error-creation": "Error during the creation of the garden"
+        },
+        "myGardenIdPage": {
+            "map": "Map",
+            "areas": "Areas",
+            "noAreas": "This garden have not any areas"
+        },
+        "zonePage": {
+            "description": "Description",
+            "task": "Task",
+            "tasksDone": "All the tasks are done !",
+            "areaDescription": "Area's description",
+            "validate": "Validate",
+            "newTask": "New task",
+            "title": "Title",
+            "deadline": "Deadline",
+            "create": "Create",
+            "cancel": "Cancel",
+            "error-messages": {
+                "fetch-data": "An error occured when trying to fetch data",
+                "dateError": "The deadline must be after the current date",
+                "createdTasks": "The task is created !",
+                "validateTask": "The task is done !",
+                "emptyFields": "All the fields must be filled",
+                "errorValidatingTask": "Can not validate this task",
+                "errorCreatingTask": "Can not create this task"
+            }
+        },
+        "my-gardens": {
+            "no-affliated-gardens": "You do not have any affiliated gardens",
+            "my-affiliations": "My affiliations",
+            "mine": "My garden"
+        }
+    },
+    "components": {
+        "searchbar": {
+            "placeholder": "Search"
+        },
+        "capsule-card": {
+            "edit": "Edit"
+        },
+        "navbar": {
+            "my-gardens": "My gardens"
+        },
+        "notification": {
+            "login": "You are connected !",
+            "must_be_logged_in": "You must me logged in to use this feature",
+            "already_affiliated": "You are already affiliated with this garden",
+            "affiliated": "You successfuly joined this garden",
+            "register": "Register completed",
+            "already-exist": "User already exists",
+            "modify-complete": "Changes made",
+            "disconnected": "User disconnected",
+            "not-owner": "You are not owner !",
+            "self-delete": "Cannot delete yourself !",
+            "not-affiliate": "You are not affiliated !",
+            "owner": "You are already owner !",
+            "transition-ownership": "You successfuly gave your garden",
+            "transition-failed-already-owner": "This user is already owner",
+            "forbidden": "You do not have the rights to access this page",
+            "fetch": "An error happened !",
+            "timed-out": "Oops something went wrong !",
+            "empty-fields": "One or more fields are empty"
+        }
+    },
+    "login": {
+        "my-account": "Login",
+        "email-address": "Email:",
+        "password": "Password:",
+        "connection": "Connect",
+        "text-inscription": "Not registered yet ?",
+        "text-register": "Sign up now!",
+        "error-email-invalid": "Email invalid",
+        "error-password-title": "Password must at least contains:",
+        "error-password-0": "A length of 8",
+        "error-password-1": "One letter",
+        "error-password-2": "One digit",
+        "error-failed-login": "Email or password incorrect",
+        "error-timeout": "Request timed out"
+    },
+    "register": {
+        "register": "Register",
+        "email-address": "Email:",
+        "first-name": "First Name:",
+        "last-name": "Last Name:",
+        "next": "Next",
+        "password": "Password:",
+        "verify-password": "Confirm password:",
+        "create": "Create",
+        "error-field-empty": "One or more fields are empty.",
+        "error-match-password": "The passwords do not match !",
+        "error-email-invalid": "Email invalid !",
+        "error-password-title": "Password must at least contains:",
+        "error-password-0": "A length of 8",
+        "error-password-1": "One letter",
+        "error-password-2": "One digit",
+        "error-password-invalid": "Password invalid !",
+        "previous": "Previous"
+    },
+    "account": {
+        "title-modify": "Modify your account !",
+        "name": "Last Name",
+        "first-name": "First Name",
+        "name-firstname": "Name and First Name",
+        "email": "Email",
+        "btn-modify": "Modify",
+        "btn-disconnect": "Disconnect",
+        "btn-save": "Save"
+    },
+    "404": {
+        "error": "Error",
+        "not-found": "Page not found"
+    }
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green-1: #009a62;
+    --green-2: #3aaf5c;
+    --green-3: #7ac357;
+    --green-4: #b6d752;
+
+    --greenShadow: "#31A95D";
+
+    --bg_gray: "#EEEEEE";
+    --gray0: "#C2C2C2";
+    --gray1: "#343434";
+    --gray2: "#626262";
+
+    --red: "#FF3333";
+
+    --white: "#FFFFFF";
+    --black: "#000000";
+
+    --highlight_green: "#CFECE1";
+    --highlight_red: "#F5BABA";
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg {
+    background: linear-gradient(
+        320deg,
+        #53af58 19.17%,
+        #5bb257 56.75%,
+        #a8d14a 85.55%
+    );
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    position: relative;
+    width: 1400px;
+    background-color: #eeeeee;
+    margin-top: 85px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.svgtree {
+    position: absolute;
+    width: 50%; /* (100 / 1650) * 819 = ~50% du width total  */
+    height: calc(width * 0.9); /* (100 / 819) * 739 = ~90% */
+    right: -1px;
+    z-index: -1;
+}
+
+.svglogo {
+    width: 96px;
+    height: 96px;
+}

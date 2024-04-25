@@ -1,0 +1,171 @@
+{
+    "home": {
+        "welcome": "Bienvenue",
+        "body1": "La première application",
+        "body2": "de potager collectif",
+        "btn-discover": "Découvrir",
+        "link-access-platform": "Accéder à la plateforme"
+    },
+    "browse": {
+        "loading-state-status": "En cours de chargement",
+        "status-xresults": "résultats",
+        "left": {
+            "create-garden": {
+                "title": "Créer votre potager",
+                "body1": "Vous aussi,",
+                "body2": "vous pouvez créer votre propre potager collectif",
+                "btn": "Créer un potager"
+            }
+        }
+    },
+    "pages": {
+        "create-garden": {
+            "title-mode": "Mode Création",
+            "input-name": "Nom",
+            "input-address": "Adresse",
+            "subtitle-garden": "Potager",
+            "config-x": "Colonnes",
+            "config-y": "Lignes",
+            "subtitle-plan": "Plan",
+            "subtitle-areas": "Zones",
+            "modal-address": {
+                "title": "Adresse",
+                "input-street": "Rue",
+                "input-city": "Ville",
+                "input-postcode": "Code Postal",
+                "error-message": "Vous ne pouvez pas avoir de champs vides",
+                "button-save": "Enregistrer",
+                "button-close": "Fermer"
+            },
+            "modal-area": {
+                "title": "Nouvelle Zone",
+                "input-name": "Nom",
+                "input-desc": "Description",
+                "error-message": "Le champ nom est vide",
+                "button-add": "Ajouter",
+                "button-cancel": "Annuler"
+            },
+            "error-messages": {
+                "name-empty": "Le champ du nom du potager doit être rempli",
+                "address-empty": "Le champ de l'adresse du potager doit être rempli",
+                "creation": "Une erreur est survenue durant la création du potager",
+                "edition": "Une erreur est survenue durant la modification du potager",
+                "already-owner": "Vous êtes déjà propriétaire d'un potager",
+                "fetch-data": "Une erreur est survenue lors de la récupération des données"
+            },
+            "garden-created": "Potager créé !",
+            "garden-edited": "Le modifications ont été enregistrées !",
+            "error-creation": "Une erreur est survenue durant la création du potager"
+        },
+        "myGardenIdPage": {
+            "map": "Plan",
+            "areas": "Zones",
+            "noAreas": "Ce potager ne contient aucune zone"
+        },
+        "zonePage": {
+            "description": "Description",
+            "task": "Tâches",
+            "tasksDone": "Toutes les tâches sont terminées !",
+            "areaDescription": "Description de la zone",
+            "validate": "Valider",
+            "newTask": "Nouvelle tâche",
+            "title": "Titre",
+            "deadline": "Date Limite",
+            "create": "Créer",
+            "cancel": "Annuler",
+            "error-messages": {
+                "fetch-data": "Une erreur est survenue lors de la récupération des données",
+                "dateError": "La date de fin doit être supérieure à la date actuelle",
+                "emptyFields": "Veuillez remplir tous les champs",
+                "createdTasks": "Tâche crée !",
+                "validateTask": "Tâche validée !",
+                "errorValidatingTask": "Impossible de valider la tâche",
+                "errorCreatingTask": "Impossible de créer la tâche"
+            }
+        },
+        "my-gardens": {
+            "no-affliated-gardens": "Vous n'avez pas de potagers affiliés",
+            "my-affiliations": "Mes affiliations",
+            "mine": "Mon potager"
+        }
+    },
+    "components": {
+        "searchbar": {
+            "placeholder": "Rechercher"
+        },
+        "capsule-card": {
+            "edit": "Modifier"
+        },
+        "navbar": {
+            "my-gardens": "Mes potagers"
+        },
+        "notification": {
+            "login": "Vous êtes connecté !",
+            "must_be_logged_in": "Vous devez être connecté pour avoir accès à cette fonctionnalité",
+            "already_affiliated": "Vous faites déjà partie de ce potager",
+            "affiliated": "Vous avez rejoint ce potager",
+            "register": "Enregistrement terminé",
+            "already-exist": "Cet utilisateur existe déjà",
+            "modify-complete": "Modification effectuée !",
+            "disconnected": "Vous êtes déconnecté !",
+            "not-owner": "Vous n'êtes pas propriétaire !",
+            "not-affiliate": "Vous n'êtes pas affilié !",
+            "owner": "Vous êtes déjà propriétaire !",
+            "self-delete": "Vous ne pouvez pas vous supprimer !",
+            "transition-ownership": "Vous avez légué votre potager",
+            "transition-failed-already-owner": "Cet utilisateur est déjà propriétaire",
+            "forbidden": "Vous n'avez pas les droits pour accéder à cette page",
+            "fetch": "Une erreur est survenue !",
+            "timed-out": "Le temps de requête est trop long !",
+            "empty-fields": "Un ou plusieurs champs sont vides"
+        }
+    },
+    "login": {
+        "my-account": "Se connecter",
+        "email-address": "Email:",
+        "password": "Mot de passe:",
+        "connection": "Se connecter",
+        "text-inscription": "Pas encore inscrit ?",
+        "text-register": "Inscrivez-vous !",
+        "error-email-invalid": "Email invalide",
+        "error-password-title": "Le mot de passe doit au minimum contenir:",
+        "error-password-0": "Une longueur de 8 caractères",
+        "error-password-1": "Une lettre",
+        "error-password-2": "Un chiffre",
+        "error-failed-login": "Email ou mot de passe incorrect",
+        "error-timeout": "La requête a échoué"
+    },
+    "register": {
+        "register": "Inscription",
+        "email-address": "Email:",
+        "first-name": "Prénom:",
+        "last-name": "Nom:",
+        "next": "Suivant",
+        "password": "Mot de passe:",
+        "verify-password": "Confirmer mot de passe:",
+        "create": "Créer",
+        "error-field-empty": "Un ou plusieurs champs sont vides.",
+        "error-match-password": "Les mots de passe ne sont pas les mêmes !",
+        "error-email-invalid": "Email invalide !",
+        "error-password-title": "Le mot de passe doit au minimum contenir:",
+        "error-password-0": "Une longueur de 8 caractères",
+        "error-password-1": "Une lettre",
+        "error-password-2": "Un chiffre",
+        "error-password-invalid": "Mot de passe invalide !",
+        "previous": "Précédent"
+    },
+    "account": {
+        "title-modify": "Modification du compte !",
+        "name": "Nom",
+        "first-name": "Prénom",
+        "name-firstname": "Nom et prénom",
+        "email": "Email",
+        "btn-modify": "Modifier",
+        "btn-disconnect": "Déconnecter",
+        "btn-save": "Sauvegarder"
+    },
+    "404": {
+        "error": "Erreur",
+        "not-found": "Page non trouvée"
+    }
+}
