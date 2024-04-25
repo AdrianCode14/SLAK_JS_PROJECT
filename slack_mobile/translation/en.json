@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "home": {
+            "title": "Welcome",
+            "text-1": "The first collective vegetable garden application",
+            "text-2": "Do you want to participate in a collective vegetable garden ?",
+            "btn-discover": "Discover",
+            "btn-access": "Access the platform"
+        },
+        "myGardens": {
+            "title": "My Gardens",
+            "garden": "My garden",
+            "affiliations": "My affiliations"
+        },
+        "browse": {
+            "title": "Browse",
+            "search": "Search ...",
+            "results": "results",
+            "join": "Join"
+        },
+        "login": {
+            "btn-login": "Connect",
+            "email-address": "Email",
+            "password": "Password",
+            "not-registered-button": "Not yet registered, come here!"
+        },
+        "register": {
+            "email-address": "Email",
+            "name": "Name",
+            "first-name": "First Name",
+            "password": "Password",
+            "confirm-password": "Confirm Password",
+            "next": "Next",
+            "create": "Create",
+            "account-created": "Account created !"
+        },
+        "myGarden": {
+            "plan": "Plan",
+            "zones": "Zones"
+        },
+        "account": {
+            "title": "My account",
+            "btn-log-out": "Log out",
+            "options": "Options",
+            "creationDate": "Created",
+            "btn-modify": "Modify",
+            "btn-save": "Save",
+            "btn-cancel": "Cancel",
+            "newName": "New name",
+            "newFirstName": "New firstname",
+            "language": "language"
+        },
+        "zonePage": {
+            "descriptionText": "Description",
+            "tasksText": "Tasks",
+            "activeTasksText": "task(s) to do",
+            "dayUntilDeadline": "day(s) left"
+        }
+    },
+    "error-messages": {
+        "empty-field": "There's one or more field that are empty !",
+        "error-failed-login": "Email or password incorrect",
+        "error-timeout": "Request timed out",
+        "error-not-logged": "You are not logged in !",
+        "error-already-affiliated": "You are already affiliated with this garden !",
+        "error-email-invalid": "Email Address is invalid !",
+        "error-already-exist": "User already exists",
+        "error-fetch": "An error happened !",
+        "error-conflict-password": "Passwords are not the same !",
+        "error-password-title": "Password must at least contains:",
+        "error-password-0": "A length of 8",
+        "error-password-1": "One letter",
+        "error-password-2": "One digit",
+        "error-not-login": "You must me logged in to use this feature",
+        "error-forbidden": "You do not have the rights to access this page",
+        "error-not-affiliate": "You are not affiliated !"
+    },
+    "success-messages": {
+        "task-validated": "Task is validated",
+        "validate": "Validate"
+    }
+}

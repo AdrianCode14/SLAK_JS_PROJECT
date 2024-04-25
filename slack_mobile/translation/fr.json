@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "home": {
+            "title": "Bienvenue",
+            "text-1": "La première application de potager collectif",
+            "text-2": "Vous souhaitez participer à un potager collectif ?",
+            "btn-discover": "Découvrir",
+            "btn-access": "Accéder à la plateforme"
+        },
+        "myGardens": {
+            "title": "Mes potagers",
+            "garden": "Mon potager",
+            "affiliations": "Mes affiliations"
+        },
+        "browse": {
+            "title": "Rechercher",
+            "search": "Rechercher ...",
+            "results": "résultats",
+            "join": "Rejoindre"
+        },
+        "login": {
+            "btn-login": "Se connecter",
+            "email-address": "Email",
+            "password": "Mot de passe",
+            "not-registered-button": "Pas encore inscrit, inscrivez-vous!"
+        },
+        "register": {
+            "email-address": "Email",
+            "name": "Nom",
+            "first-name": "Prénom",
+            "password": "Mot de passe",
+            "confirm-password": "Confirmer mot de passe",
+            "next": "Suivant",
+            "create": "Créer",
+            "account-created": "Compte créé !"
+        },
+        "myGarden": {
+            "plan": "Plan",
+            "zones": "Zones"
+        },
+        "account": {
+            "title": "Mon compte",
+            "btn-log-out": "Se déconnecter",
+            "options": "Options",
+            "creationDate": "Cree le",
+            "btn-modify": "Modifier",
+            "btn-save": "Sauvegarder",
+            "btn-cancel": "Annuler",
+            "newName": "Nouveau nom",
+            "newFirstName": "Nouveau prenom",
+            "language": "langue"
+        },
+        "zonePage": {
+            "descriptionText": "Description",
+            "tasksText": "Taches",
+            "activeTasksText": "tache(s) active",
+            "dayUntilDeadline": "jour(s) restants"
+        }
+    },
+    "error-messages": {
+        "empty-field": "Un des champs n'est pas rempli !",
+        "error-failed-login": "Email ou mot de passe incorrect",
+        "error-timeout": "La requête a échoué",
+        "error-not-logged": "Vous n'êtes pas connecté !",
+        "error-already-affiliated": "Vous êtes déjà affilié à ce potager !",
+        "error-email-invalid": "L'adresse email est invalide !",
+        "error-already-exist": "Cet utilisateur existe déjà",
+        "error-fetch": "Une erreur est survenue !",
+        "error-conflict-password": "Les mot de passes ne sont pas les mêmes !",
+        "error-password-title": "Le mot de passe doit au minimum contenir:",
+        "error-password-0": "Une longueur de 8 caractères",
+        "error-password-1": "Une lettre",
+        "error-password-2": "Un chiffre",
+        "error-not-login": "Vous devez être connecté pour avoir accès à cette fonctionnalité",
+        "error-forbidden": "Vous n'avez pas les droits pour accéder à cette page",
+        "error-not-affiliate": "Vous n'êtes pas affilié !"
+    },
+    "success-messages": {
+        "task-validated": "La tâche est validée",
+        "validate": "Valider"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "expo": {
+        "name": "slack_mobile",
+        "slug": "slack_mobile",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/logo.svg",
+        "userInterfaceStyle": "light",
+
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/logo.svg",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "web": {
+            "favicon": "./assets/logo.svg"
+        }
+    }
+}
