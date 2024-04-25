@@ -1,0 +1,28 @@
+{
+    "name": "slak_backend",
+    "version": "1.0.0",
+    "description": "Backend used across slak mobile and slak web ",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "initDB": "node scripts/JS/initDB.js",
+        "createPassword": "node scripts/JS/createPasswd.js",
+        "docker": "docker run --name slack -e POSTGRES_PASSWORD=Pgadmin- -e POSTGRES_USER=admin -e POSTGRES_DB=slack -p 5432:5432 --rm -d postgres",
+        "genDoc": "node ./swagger/swagger_jsdoc.js"
+    },
+    "author": "Staelens Logan, Georges Simon, Charlier Killian, Grosu Adrian",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.0.1",
+        "swagger-jsdoc": "^6.2.8"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "pg": "^8.11.3"
+    }
+}
