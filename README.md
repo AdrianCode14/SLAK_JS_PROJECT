@@ -50,22 +50,6 @@ _.env must be in backend folder_
     1. docker compose down
 ```
 
-## Env file
-
-_example_
-
-```bash
-DB_USER=admin
-DB_HOST=(localhost or postgres)
-DATABASE=slack
-DB_PWD=Pgadmin-
-DB_PORT=5431
-BACKEND_PORT=3001
-CRYPT_PASSWORD=a229e9aa-a435-445b-ab2e-f8ae4a1f6bda
-PAGINATION_ROWS=5
-MAX_GARDENS_SIZE=20
-```
-
 ## Plan Controls
 
 _For the plan to be controllable, you must focus the plan (you'll see a green border)_
